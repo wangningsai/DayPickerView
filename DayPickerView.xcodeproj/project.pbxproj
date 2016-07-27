@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9951D8C11D48D15A008F1510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9951D8C01D48D15A008F1510 /* main.m */; };
+		9951D8C41D48D15B008F1510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9951D8C31D48D15B008F1510 /* AppDelegate.m */; };
+		9951D8C71D48D15B008F1510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9951D8C61D48D15B008F1510 /* ViewController.m */; };
+		9951D8CA1D48D15B008F1510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9951D8C81D48D15B008F1510 /* Main.storyboard */; };
+		9951D8CC1D48D15B008F1510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9951D8CB1D48D15B008F1510 /* Assets.xcassets */; };
+		9951D8CF1D48D15B008F1510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9951D8CD1D48D15B008F1510 /* LaunchScreen.storyboard */; };
+		9951D8DA1D48D15B008F1510 /* DayPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9951D8D91D48D15B008F1510 /* DayPickerViewTests.m */; };
+		9951D8E51D48D15B008F1510 /* DayPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9951D8E41D48D15B008F1510 /* DayPickerViewUITests.m */; };
+		9951D8F41D48D21D008F1510 /* WNDaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9951D8F31D48D21D008F1510 /* WNDaterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9951D8D61D48D15B008F1510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9951D8B41D48D15A008F1510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9951D8BB1D48D15A008F1510;
+			remoteInfo = DayPickerView;
+		};
+		9951D8E11D48D15B008F1510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9951D8B41D48D15A008F1510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9951D8BB1D48D15A008F1510;
+			remoteInfo = DayPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9951D8BC1D48D15A008F1510 /* DayPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9951D8C01D48D15A008F1510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9951D8C21D48D15A008F1510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9951D8C31D48D15B008F1510 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9951D8C51D48D15B008F1510 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9951D8C61D48D15B008F1510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9951D8C91D48D15B008F1510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9951D8CB1D48D15B008F1510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9951D8CE1D48D15B008F1510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9951D8D01D48D15B008F1510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9951D8D51D48D15B008F1510 /* DayPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9951D8D91D48D15B008F1510 /* DayPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayPickerViewTests.m; sourceTree = "<group>"; };
+		9951D8DB1D48D15B008F1510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9951D8E01D48D15B008F1510 /* DayPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9951D8E41D48D15B008F1510 /* DayPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayPickerViewUITests.m; sourceTree = "<group>"; };
+		9951D8E61D48D15B008F1510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9951D8F21D48D21D008F1510 /* WNDaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDaterView.h; sourceTree = "<group>"; };
+		9951D8F31D48D21D008F1510 /* WNDaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDaterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9951D8B91D48D15A008F1510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9951D8D21D48D15B008F1510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9951D8DD1D48D15B008F1510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9951D8B31D48D15A008F1510 = {
+			isa = PBXGroup;
+			children = (
+				9951D8BE1D48D15A008F1510 /* DayPickerView */,
+				9951D8D81D48D15B008F1510 /* DayPickerViewTests */,
+				9951D8E31D48D15B008F1510 /* DayPickerViewUITests */,
+				9951D8BD1D48D15A008F1510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9951D8BD1D48D15A008F1510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9951D8BC1D48D15A008F1510 /* DayPickerView.app */,
+				9951D8D51D48D15B008F1510 /* DayPickerViewTests.xctest */,
+				9951D8E01D48D15B008F1510 /* DayPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9951D8BE1D48D15A008F1510 /* DayPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9951D8C21D48D15A008F1510 /* AppDelegate.h */,
+				9951D8C31D48D15B008F1510 /* AppDelegate.m */,
+				9951D8C51D48D15B008F1510 /* ViewController.h */,
+				9951D8F21D48D21D008F1510 /* WNDaterView.h */,
+				9951D8F31D48D21D008F1510 /* WNDaterView.m */,
+				9951D8C61D48D15B008F1510 /* ViewController.m */,
+				9951D8C81D48D15B008F1510 /* Main.storyboard */,
+				9951D8CB1D48D15B008F1510 /* Assets.xcassets */,
+				9951D8CD1D48D15B008F1510 /* LaunchScreen.storyboard */,
+				9951D8D01D48D15B008F1510 /* Info.plist */,
+				9951D8BF1D48D15A008F1510 /* Supporting Files */,
+			);
+			path = DayPickerView;
+			sourceTree = "<group>";
+		};
+		9951D8BF1D48D15A008F1510 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9951D8C01D48D15A008F1510 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9951D8D81D48D15B008F1510 /* DayPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9951D8D91D48D15B008F1510 /* DayPickerViewTests.m */,
+				9951D8DB1D48D15B008F1510 /* Info.plist */,
+			);
+			path = DayPickerViewTests;
+			sourceTree = "<group>";
+		};
+		9951D8E31D48D15B008F1510 /* DayPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9951D8E41D48D15B008F1510 /* DayPickerViewUITests.m */,
+				9951D8E61D48D15B008F1510 /* Info.plist */,
+			);
+			path = DayPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9951D8BB1D48D15A008F1510 /* DayPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9951D8E91D48D15B008F1510 /* Build configuration list for PBXNativeTarget "DayPickerView" */;
+			buildPhases = (
+				9951D8B81D48D15A008F1510 /* Sources */,
+				9951D8B91D48D15A008F1510 /* Frameworks */,
+				9951D8BA1D48D15A008F1510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayPickerView;
+			productName = DayPickerView;
+			productReference = 9951D8BC1D48D15A008F1510 /* DayPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9951D8D41D48D15B008F1510 /* DayPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9951D8EC1D48D15B008F1510 /* Build configuration list for PBXNativeTarget "DayPickerViewTests" */;
+			buildPhases = (
+				9951D8D11D48D15B008F1510 /* Sources */,
+				9951D8D21D48D15B008F1510 /* Frameworks */,
+				9951D8D31D48D15B008F1510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9951D8D71D48D15B008F1510 /* PBXTargetDependency */,
+			);
+			name = DayPickerViewTests;
+			productName = DayPickerViewTests;
+			productReference = 9951D8D51D48D15B008F1510 /* DayPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9951D8DF1D48D15B008F1510 /* DayPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9951D8EF1D48D15B008F1510 /* Build configuration list for PBXNativeTarget "DayPickerViewUITests" */;
+			buildPhases = (
+				9951D8DC1D48D15B008F1510 /* Sources */,
+				9951D8DD1D48D15B008F1510 /* Frameworks */,
+				9951D8DE1D48D15B008F1510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9951D8E21D48D15B008F1510 /* PBXTargetDependency */,
+			);
+			name = DayPickerViewUITests;
+			productName = DayPickerViewUITests;
+			productReference = 9951D8E01D48D15B008F1510 /* DayPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9951D8B41D48D15A008F1510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王宁";
+				TargetAttributes = {
+					9951D8BB1D48D15A008F1510 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QNG7EEVK56;
+					};
+					9951D8D41D48D15B008F1510 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QNG7EEVK56;
+						TestTargetID = 9951D8BB1D48D15A008F1510;
+					};
+					9951D8DF1D48D15B008F1510 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QNG7EEVK56;
+						TestTargetID = 9951D8BB1D48D15A008F1510;
+					};
+				};
+			};
+			buildConfigurationList = 9951D8B71D48D15A008F1510 /* Build configuration list for PBXProject "DayPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9951D8B31D48D15A008F1510;
+			productRefGroup = 9951D8BD1D48D15A008F1510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9951D8BB1D48D15A008F1510 /* DayPickerView */,
+				9951D8D41D48D15B008F1510 /* DayPickerViewTests */,
+				9951D8DF1D48D15B008F1510 /* DayPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9951D8BA1D48D15A008F1510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9951D8CF1D48D15B008F1510 /* LaunchScreen.storyboard in Resources */,
+				9951D8CC1D48D15B008F1510 /* Assets.xcassets in Resources */,
+				9951D8CA1D48D15B008F1510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9951D8D31D48D15B008F1510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9951D8DE1D48D15B008F1510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9951D8B81D48D15A008F1510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9951D8F41D48D21D008F1510 /* WNDaterView.m in Sources */,
+				9951D8C71D48D15B008F1510 /* ViewController.m in Sources */,
+				9951D8C41D48D15B008F1510 /* AppDelegate.m in Sources */,
+				9951D8C11D48D15A008F1510 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9951D8D11D48D15B008F1510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9951D8DA1D48D15B008F1510 /* DayPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9951D8DC1D48D15B008F1510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9951D8E51D48D15B008F1510 /* DayPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9951D8D71D48D15B008F1510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9951D8BB1D48D15A008F1510 /* DayPickerView */;
+			targetProxy = 9951D8D61D48D15B008F1510 /* PBXContainerItemProxy */;
+		};
+		9951D8E21D48D15B008F1510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9951D8BB1D48D15A008F1510 /* DayPickerView */;
+			targetProxy = 9951D8E11D48D15B008F1510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9951D8C81D48D15B008F1510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9951D8C91D48D15B008F1510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9951D8CD1D48D15B008F1510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9951D8CE1D48D15B008F1510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9951D8E71D48D15B008F1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9951D8E81D48D15B008F1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9951D8EA1D48D15B008F1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DayPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.DayPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9951D8EB1D48D15B008F1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DayPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.DayPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9951D8ED1D48D15B008F1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DayPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.DayPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayPickerView.app/DayPickerView";
+			};
+			name = Debug;
+		};
+		9951D8EE1D48D15B008F1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DayPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.DayPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayPickerView.app/DayPickerView";
+			};
+			name = Release;
+		};
+		9951D8F01D48D15B008F1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DayPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.DayPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DayPickerView;
+			};
+			name = Debug;
+		};
+		9951D8F11D48D15B008F1510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DayPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.DayPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DayPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9951D8B71D48D15A008F1510 /* Build configuration list for PBXProject "DayPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9951D8E71D48D15B008F1510 /* Debug */,
+				9951D8E81D48D15B008F1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9951D8E91D48D15B008F1510 /* Build configuration list for PBXNativeTarget "DayPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9951D8EA1D48D15B008F1510 /* Debug */,
+				9951D8EB1D48D15B008F1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9951D8EC1D48D15B008F1510 /* Build configuration list for PBXNativeTarget "DayPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9951D8ED1D48D15B008F1510 /* Debug */,
+				9951D8EE1D48D15B008F1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9951D8EF1D48D15B008F1510 /* Build configuration list for PBXNativeTarget "DayPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9951D8F01D48D15B008F1510 /* Debug */,
+				9951D8F11D48D15B008F1510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9951D8B41D48D15A008F1510 /* Project object */;
+}
